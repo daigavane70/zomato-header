@@ -1,0 +1,63 @@
+header{
+    padding-block: 10px;
+}
+
+header .brand {
+    padding: 10px;
+}
+
+header .brand img{
+    width: 100%;
+}
+
+.control{
+    border: 1px solid rgba(0, 0, 0, 0.289);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+}
+
+.control select{
+    outline: none;
+    height: 60px;
+    border: 0px;
+    background: none;
+    width: 100%;
+}
+
+.control input{
+    outline: none;
+    height: 60px;
+    width: 100%;
+
+    border: none;
+    padding-inline: 10px;
+}
+
+.loc-icon{
+    display: flex;
+}
+
+.divider{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.search-icon{
+    display: flex;
+}
+
+header button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+header button:hover{
+    transform: scale(1.1);
+    -webkit-transition: 500ms ease;
+}
