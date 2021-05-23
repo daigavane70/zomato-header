@@ -55,6 +55,7 @@ header button{
     border: none;
     outline: none;
     background: none;
+    height: 60px;
 }
 
 header button:hover{
